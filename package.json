@@ -13,11 +13,12 @@
   ],
   "files": [],
   "scripts": {
-    "build": "npm run build --workspaces",
-    "watch": "npm run watch --workspaces",
-    "publish-all": "npm publish --workspaces --access public",
-    "link-all": "npm link --workspaces"
-  },
+  "start": "npx @modelcontextprotocol/server-everything",
+  "build": "npm run build --workspaces",
+  "watch": "npm run watch --workspaces",
+  "publish-all": "npm publish --workspaces --access public",
+  "link-all": "npm link --workspaces"
+},
   "dependencies": {
     "@modelcontextprotocol/server-everything": "*",
     "@modelcontextprotocol/server-gdrive": "*",
